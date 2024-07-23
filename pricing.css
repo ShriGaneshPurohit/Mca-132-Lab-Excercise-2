@@ -1,0 +1,60 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    margin: rem;
+    padding: 2rem;
+    height: 100vh;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.pricing-plan{
+    flex:1;
+    flex: 1 100px ,0;
+    background-color: beige;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+
+
+}
+
+.signup-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.signup-btn > button{
+    background-color:darkgoldenrod ;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.parallaximage , .price-container{
+  /* The image used */
+  background-image: url(./assets/background.jpg);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    /* STYLES HERE */
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+}
